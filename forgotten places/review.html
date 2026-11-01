@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Our Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(41, 41, 41);">
+
+    <header>
+        <h1 style="color: rgb(177, 177, 177);">
+            Rate Our Project
+        </h1>
+
+        <p style="color: rgb(177, 177, 177);">
+            Share your opinion and help us improve Forgotten Places!
+        </p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+
+        <div class="dropdown">
+            <a href="#">Explore</a>
+
+            <div class="dropdown-content">
+                <a href="lost-cities.html">Lost Cities</a>
+                <a href="abandoned-buildings.html">Abandoned Buildings</a>
+                <a href="haunted-places.html">Haunted Places</a>
+            </div>
+        </div>
+
+        <a href="about.html">About</a>
+        <a href="review.html">Rate Our Project</a>
+    </nav>
+
+    <hr color="black">
+    <main>
+        <section style="padding: 20px;">
+            <article>
+                <h2 class="titluri">About This Project</h2>
+
+                <p style="color: rgb(177, 177, 177);">
+                    Forgotten Places is a website dedicated to abandoned
+                    buildings, lost cities and mysterious locations around
+                    the world. Its purpose is to present interesting places
+                    and share the history and stories behind them.
+                </p>
+
+                <p style="color: rgb(177, 177, 177);">
+                    Your feedback helps us understand what visitors enjoy
+                    most and what could be improved. Please complete the
+                    form below and give our project a rating.
+                </p>
+            </article>
+        </section>
+
+        <section style="padding: 20px;">
+            <h2 class="titluri">Project Rating Form</h2>
+
+            <form action="#" method="get"
+                  style="color: rgb(177, 177, 177);">
+
+                <label for="name">Your name:</label><br>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name"><br><br>
+
+                <label for="rating">Rate the website:</label><br>
+                <select id="rating" name="rating" required>
+                    <option value="">Choose a rating</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Needs improvement</option>
+                    <option value="1">1 - Poor</option>
+                </select><br><br>
+
+                <label for="favorite">Your favorite category:</label><br>
+                <select id="favorite" name="favorite" required>
+                    <option value="">Choose a category</option>
+                    <option value="Lost Cities">Lost Cities</option>
+                    <option value="Abandoned Buildings">Abandoned Buildings</option>
+                    <option value="Haunted Places">Haunted Places</option>
+                </select><br><br>
+
+                <label>Would you recommend this website?</label><br>
+
+                <input type="radio" id="yes" name="recommend"
+                       value="Yes" required>
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="recommend" value="No">
+                <label for="no">No</label><br><br>
+
+                <label for="comment">Your opinion and suggestions:</label><br>
+                <textarea id="comment" name="comment"
+                          rows="6" cols="40"
+                          placeholder="Write your feedback here..."></textarea><br><br>
+
+                <button type="submit">Submit Rating</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+        </section>
+
+        <section style="padding: 20px;">
+            <h2 class="titluri">Why Your Opinion Matters</h2>
+
+            <article>
+                <h3 style="color: rgb(177, 177, 177);">
+                    Help Us Improve
+                </h3>
+
+                <p style="color: rgb(177, 177, 177);">
+                    Every suggestion can help make the website more
+                    informative, attractive and easier to navigate.
+                    Your feedback is an important part of improving
+                    the Forgotten Places project.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: rgb(177, 177, 177);">
+            Forgotten Places &copy; 2026
+        </p>
+    </footer>
+
+</body>
+</html>
